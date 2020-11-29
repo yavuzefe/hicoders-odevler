@@ -1,5 +1,6 @@
 const ay = prompt("Dogdunuz ayi rakam olarak yaziniz!");
 const gun = prompt("Dogdunuz gunu rakam olarak yaziniz!");
+const burc;
 
 if((ay == 1 && gun>20) || (ay == 2 && gun<19)){
     burc = 'KOVA';
