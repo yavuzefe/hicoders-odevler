@@ -7,6 +7,9 @@ for (let i = 0; i < hayvanlar.length; i++) { // arraydeki hayvanlari dongu ile s
     if (hayvanlar[i] == "inek" || hayvanlar[i] == "koyun") {
         bacakSayisi += 4; // eger siradaki hayvan kelle paca icin uygunsa kelle paca sayisini bacaksayisi kadar yani 4 arttiririz.
     }
+    else if (hayvanlar[i] == "tavuk") {
+        bacakSayisi += 2; // eger siradaki hayvan kelle paca icin uygunsa kelle paca sayisini bacaksayisi kadar yani 4 arttiririz.
+    }
 }
 
 console.log(bacakSayisi);
