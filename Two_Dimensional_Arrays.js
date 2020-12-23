@@ -33,7 +33,7 @@ function gradeAverage(lesson){
     for (let index = 0; index < lesson.length; index++) {
         // hangi ders array'indeysek buradaki tum degerleri toplayarak lessonSum degiskeninde tutuyoruz.
         lessonSum += lesson[index];
-    }
+    } 
     // son olarak da arraydeki ders puanlarinin toplamini array icinde kac deger varsa ona bolerek ortalamayi buluyoruz.
     let lessonAverage = lessonSum / lesson.length;
     return lessonAverage;
