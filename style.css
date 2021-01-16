@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.genel{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.pil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Battery{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    margin: 0px 15px;
+}
+ #tepe{
+     width: 40px;
+     height: 20px;
+     background-color: black;
+     position: relative;
+     padding: 0px 15px;
+ }
+ .artieksi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+ }
+ .buttons{
+     width: 100%;
+ }
