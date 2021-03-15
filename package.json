@@ -1,0 +1,13 @@
+{
+  "name": "reading_text_with_node.js",
+  "version": "1.0.0",
+  "description": "dosyadan bir text okuyup yazdirma",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "author": "Yavuz Efe",
+  "license": "ISC"
+}
