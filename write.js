@@ -32,5 +32,5 @@ function sayfaEkleme(pWorkbook, pData, pIsim){
 }
 
 // Fonksiyonumuzu hangi dosyaya, hangi verileri, hangi isimdeki sayfa olarak eklemek istedigimizi girerek cagiriyoruz.
-sayfaEkleme("OrnekDosya.xlsx", "./data", "Yenisayfa6");
+sayfaEkleme("OrnekDosya.xlsx", "./data", "Yenisayfa");
 
