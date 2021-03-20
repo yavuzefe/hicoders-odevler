@@ -1,3 +1,6 @@
+/*Sayfamizin son kismini olusturan kismi OutputFormat isimli fonksiyon ile tanimlayip diger 
+sayfalarda da kullanilabilmesi icin export ediyoruz*/
+
 export default function OutputFormat(){
     return(
         <div>

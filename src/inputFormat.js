@@ -1,3 +1,6 @@
+/*Sayfamizin ilk kismini olusturan kismi InputFormat isimli fonksiyon ile tanimlayip diger 
+sayfalarda da kullanilabilmesi icin export ediyoruz*/
+
 export default function InputFormat(){
     return(
         <div>

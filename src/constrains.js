@@ -1,3 +1,6 @@
+/*Sayfamizin orta kismini olusturan kismi Constrains isimli fonksiyon ile tanimlayip diger 
+sayfalarda da kullanilabilmesi icin export ediyoruz*/
+
 export default function Constrains(){
     return(
         <div>
