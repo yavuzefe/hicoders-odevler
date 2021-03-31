@@ -1,0 +1,32 @@
+[
+    {
+        "name":"ASD",
+        "surname":"QWE",
+        "age":123,
+        "arkadas":[
+            "TYU",
+            "CVNB",
+            "JKLH"
+        ]
+    },
+    {
+        "name":"ASD2",
+        "surname":"QWE2",
+        "age":2123,
+        "arkadas":[
+            "TYU2",
+            "CVNB2",
+            "JKLH2"
+        ]
+    },
+    {
+        "name":"ASD3",
+        "surname":"QWE3",
+        "age":3123,
+        "arkadas":[
+            "TYU3",
+            "CVNB3",
+            "JKLH3"
+        ]
+    }
+]

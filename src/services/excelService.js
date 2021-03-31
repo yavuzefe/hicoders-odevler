@@ -19,6 +19,7 @@ const ReadExcel = (file) => {
     promise.then((d) => {
         console.log(d);
     });
+    console.log(promise);
 }
 
 
