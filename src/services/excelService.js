@@ -16,10 +16,7 @@ const ReadExcel = (file) => {
             rej(err);
         }
     })
-    promise.then((d) => {
-        console.log(d);
-    });
-    console.log(promise);
+    return promise;
 }
 
 

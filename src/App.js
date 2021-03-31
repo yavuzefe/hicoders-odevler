@@ -1,12 +1,13 @@
 import './App.css';
-// import ReadingExcelFile from './components/excelTable';
-import data from './excel-data.json';
-import TableContainer from './components/tableContainer';
+// import ReadExcel from "../services/excelService";
+import ReadingExcelFile from './components/excelTable';
+// import data from './excel-data.json';
+// import TableContainer from './components/tableContainer';
 
 function App() {
   return (
-    // <ReadingExcelFile></ReadingExcelFile>
-    <TableContainer dataJson={data}></TableContainer>
+    <ReadingExcelFile/>
+    // <TableContainer dataJson={data}></TableContainer>
   );
 }
 
