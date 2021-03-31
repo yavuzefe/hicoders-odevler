@@ -1,15 +1,15 @@
 import TableHeader from "./tableHeader";
 import TableRow from "./tableRows";
 
-export default function TableContainer({ friendInfos }) {
-    const allFriendInfos = friendInfos.map(friend =>
-        <TableRow {...friend}></TableRow>)
+export default function TableContainer({ dataJson }) {
+    const dataAsRow = dataJson.map(itemObject =>
+        <TableRow {...itemObject}></TableRow>)
 
     return (
         <div>
             <table>
-                <TableHeader {...friendInfos}></TableHeader>
-                {allFriendInfos}
+                <TableHeader {...dataJson}></TableHeader>
+                {dataAsRow}
             </table>
         </div>
     );
